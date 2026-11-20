@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Journal de prompts</title>
 <meta name="description" content="Saisir et dater ses prompts IA pour l'annexe du PPI ou du PPC (MSDI, IFC).">
-<meta name="theme-color" content="#e30613">
+<meta name="theme-color" content="#15803d">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -19,7 +19,7 @@
    Mise en page : en-tête rouge arrondi, choix en pastilles, carte blanche pour le prompt, navigation en pilules. */
 :root{
   --bg:#f6f4f0; --surface:#ffffff; --fg:#111111; --muted:#5f5b54; --line:#d8d4cc; --soft:#eeeae3;
-  --red:#e30613; --red-fg:#ffffff; --orange:#f39200; --yellow:#ffd500; --ink:#111111; --ink-fg:#ffffff;
+  --green:#15803d; --green-fg:#ffffff; --orange:#f39200; --yellow:#ffd500; --ink:#111111; --ink-fg:#ffffff;
   --ok-bg:#e3f1e8; --ok-fg:#145c34; --err:#b3261e;
   --f-display:"Bricolage Grotesque","Arial Rounded MT Bold",system-ui,sans-serif;
   --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
@@ -28,7 +28,7 @@
 }
 @media (prefers-color-scheme:dark){:root{
   --bg:#151412; --surface:#22201d; --fg:#f2efe9; --muted:#aaa59b; --line:#3d3a34; --soft:#2d2a26;
-  --red:#d10512; --ink:#f2efe9; --ink-fg:#111111;
+  --green:#166534; --ink:#f2efe9; --ink-fg:#111111;
   --ok-bg:#16382a; --ok-fg:#8fdcae; --err:#ff8a80; color-scheme:dark}}
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -36,7 +36,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.45 var(--f-body);
 button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,select:focus,input:focus,textarea:focus,a:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 
-header{background:var(--red);color:var(--red-fg);border-radius:0 0 24px 24px;
+header{background:var(--green);color:var(--green-fg);border-radius:0 0 24px 24px;
   padding:calc(env(safe-area-inset-top,0px) + 16px) 20px 18px;display:grid;gap:10px}
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px}
 header h1{font:800 1.5rem/1.1 var(--f-display);letter-spacing:-.02em;margin:0}
